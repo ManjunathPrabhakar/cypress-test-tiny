@@ -1,6 +1,7 @@
 /// <reference types="cypress" />
-describe('page', () => {
-  it('works', () => {
-    cy.visit('https://example.cypress.io')
+describe('Demo Automation Testing', () => {
+  it('Register Page', () => {
+    cy.request('http://demo.automationtesting.in/')
+    cy.visit('http://demo.automationtesting.in/')
   })
 })

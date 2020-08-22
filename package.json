@@ -2,6 +2,9 @@
   "name": "cypress-test-tiny",
   "version": "1.0.0",
   "description": "Small project for quickly testing Cypress.io test runner",
+  "dependencies": {
+    "cypress": "^5.0.0"
+  },
   "scripts": {
     "cypress:run": "cypress run",
     "cypress:open": "cypress open",
